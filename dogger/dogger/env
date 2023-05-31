@@ -1,0 +1,21 @@
+# MariaDB Environment Variables
+MYSQL_ROOT_PASSWORD=your_root_password
+MYSQL_DATABASE=wordpress
+MYSQL_USER=wordpress_user
+MYSQL_PASSWORD=wordpress_password
+
+# WordPress Environment Variables
+WP_URL=your_wordpress_url
+WP_TITLE=Your WordPress Site
+WP_ADMIN_LOGIN=admin
+WP_ADMIN_PASSWORD=admin_password
+WP_ADMIN_EMAIL=admin@example.com
+WP_USER_LOGIN=user
+WP_USER_PASSWORD=user_password
+WP_USER_EMAIL=user@example.com
+
+# Nginx Environment Variables
+WP_URL=your_wordpress_url
+
+# Docker Compose Environment Variables
+COMPOSE_PROJECT_NAME=your_project_name
